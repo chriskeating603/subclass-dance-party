@@ -1,25 +1,45 @@
+.container {
+  padding-right: 75px;
+  padding-left: 75px;
+  align-content: center;
+  margin: 0;
+  width: auto;
+}
+
 body, html{
   height:100%;
 }
 body{
   margin: 0px;
-  background-image:url('https://upload.wikimedia.org/wikipedia/commons/thumb/d/dc/Colorado_Supreme_Court_courtroom.JPG/1200px-Colorado_Supreme_Court_courtroom.JPG');
+  background-image:url('http://all-len-all.com/wp-content/uploads/2015/10/empty-house-congress.jpg');
   font-size: 18px;
-  background-size: cover;
+  background-size: 100% 100%;
 }
 body, a:link, a:visited, a:active{
   color: lightblue;
 }
-.title, .addBernieButton{
+.title {
+  font-family: 'Droid Serif', serif;
+  text-align: center;
+  font-size: 40px;
+  color: #fff;
+}
+
+.addBernieButton, .addDancerButton {
   padding:5px 12px;
-  float:right;
+  text-align:center;
 }
 .topbar{
-  height:32px;
+  height: 50px;
   background-color: #555;
+  text-align: center;
+}
+.sub-bar {
+  height: 30px;
 }
 .title{
-  background-color: #777;
+  background-color: #555;
+  align-content: center;
 }
 .dancer{
   /*border:10px solid red;*/
