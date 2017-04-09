@@ -7,5 +7,4 @@ makeBernie.prototype = Object.create(makeDancer.prototype);
 makeBernie.prototype.constructor = makeBernie;
 makeBernie.prototype.step = function() {
   makeDancer.prototype.step.call(this);
-  this.$node.toggle();
 };

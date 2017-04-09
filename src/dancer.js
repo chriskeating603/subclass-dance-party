@@ -1,5 +1,4 @@
 var makeDancer = function(top, left, timeBetweenSteps) {
-  // use jQuery to create an HTML <span> tag
   this.timeBetweenSteps = timeBetweenSteps;
   this.top = top;
   this.left = left;
